@@ -1,0 +1,41 @@
+# Arquivos de Ambiente Virtual
+/venv/
+/.venv/
+/env/
+/ENV/
+
+# Arquivos de Variáveis de Ambiente
+.env
+.env.*
+
+# Banco de Dados
+*.sqlite3
+db.sqlite3
+
+# Arquivos específicos do Django
+/staticfiles/
+/static_root/
+# Pasta para arquivos de mídia enviados por usuários
+/media/
+
+# Arquivos de Cache e Bytecode do Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Arquivos de configuração de IDEs e Editores
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Arquivos de Log
+*.log
+
+# Arquivos gerados pelo Sistema Operacional
+.DS_Store
+Thumbs.db
+
+# Relatórios de Testes e Cobertura de Código
+.coverage
+htmlcov/
