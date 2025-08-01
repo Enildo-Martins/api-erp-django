@@ -13,7 +13,7 @@ class Base(APIView):
 
         return owner.id
     
-    def get_employww(self, employee_id, user_id):
+    def get_employee(self, employee_id, user_id):
         enterprise_id = self.get_enterprise_id(user_id)
 
         employee = Employee.objects.filter(id=employee_id, enterprise_id=enterprise_id).first()
