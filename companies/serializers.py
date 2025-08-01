@@ -3,7 +3,7 @@ from companies.models import Employee, Task
 from accounts.models import User, User_Groups, Group, Group_Permissions
 from django.contrib.auth.models import Permission
 
-class EmployeeSerializer(serializers.ModelSerializer):
+class EmployeesSerializer(serializers.ModelSerializer):
     name = serializers.SerializerMethodField()
     email = serializers.SerializerMethodField()
 
